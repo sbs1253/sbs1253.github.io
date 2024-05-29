@@ -5,7 +5,7 @@ date: 2024-05-29 16:08 +0900
 description: Jekyll Chirpy 테마로 페이지 작성
 category: [Blogging,세팅]
 tags: [깃허브]
-pin: false
+pin: true
 math: true
 mermaid: true
 author: sbs1253
