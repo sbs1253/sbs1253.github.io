@@ -73,10 +73,24 @@ $ bundle install
 ```shell
 $ bundle exec jekyll serve
 ```
+
+### jekyll-compose 로 포스트 쉽게 올리기
+
+jekyll-compose 설치 후 아래의 명령어를 입력하면 _post폴더에 작성시간이 찍힌 파일이 생성된다.
+```
+ bundle exec jekyll post "글 제목!"
+```
+다른 명령어
+- draft -> 입력받은 제목으로 초안 생성 (작성시간이 안 찍힘)
+- post -> 입력받은 제목으로 게시글 생성 (작성시간이 찍힘)
+- publish -> 입력받은 초안을 _post로 옮기고 작성시간 찍어줌
+- unpublish -> 입력받은 게시글을 다시 _draft로 옭김
+- page -> 입력받은 이름으로 페이지 생성
+- rename -> 입력받은 초안의 이름 변경
+- compose -> 입력받은 이름으로 파일 생성
+
 ### 빌드 및 배포
 **공식 설명서에 깃허브 배포방법 필독!**
-
-
 
 ### 참고
 [jekyll](https://jekyllrb.com/docs/)
